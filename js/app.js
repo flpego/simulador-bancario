@@ -36,7 +36,7 @@ const calculateAmount = (userMoney, parameter) => {
         if (numberAccount === numberAccountMarcelo) {
             let amountToTransfer = parseInt(prompt("Ingrese monto a transferir"));
             if (amountToTransfer > userMoney) {
-                console.log("No tiene suficiente dinero para realizar la transferencia")
+                console.log("No tiene suficiente dinero para realizar la transferencia");
             } else {
                 userMoney -= amountToTransfer;
                 userMoneyMarcelo += amountToTransfer;
@@ -45,9 +45,9 @@ const calculateAmount = (userMoney, parameter) => {
                 return userMoney, userMoneyMarcelo;
             }
         } else if (numberAccount != numberAccountMarcelo) {
-            console.log("El numero de cuenta ingresado no existe, por favor ingrese un numero de cuenta valido")
+            console.log("El numero de cuenta ingresado no existe, por favor ingrese un numero de cuenta valido");
         } else {
-            console.log("")
+            console.log("opcion no valida");
 
         }
     }
