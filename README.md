@@ -22,6 +22,8 @@ La aplicación presenta las siguientes funcionalidades:
    
 ## Ejecución
 
+Clona el repositorio en tu sistema local y:
+
 1. Abre el archivo `index.html` en un navegador web:
     - Haz doble clic en el archivo `index.html`.
     - Se abrirá en tu navegador web predeterminado.
